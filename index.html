@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/png" href="icons/icon_calendar.png">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+    <title>Zymbo</title>
+</head>
+<body>
+
+    <!--Navbar Aqui-->
+
+    <div class="navbar">
+        <a href="cadastro.html">Cadastre-se</a>
+        <a href="acesse.html">Acesse sua conta</a>
+        <a href="crie.html">Crie seu evento</a>
+        <a class="Menu" href="index.html">Zymbo</a>
+    </div>
+
+    <div style="clear: both;"></div>
+
+
+    <div class="titulo"><h1>Se conecte a um mundo de possibilidades</h1></div>
+    
+
+    <!--Carrosel Aqui-->
+
+    <div class="Carrossel">
+
+        <div class="slidesImg">
+            <div class="numeroTexto">1 / 3</div>
+            <img src="images/imgEvento.jpg" style="width: 100%;">
+            <div class="text">Bootcamp em Brasília</div>
+        </div>
+
+        <div class="slidesImg">
+            <div class="numeroTexto">2 / 3</div>
+            <img src="images/imgEvento1.jpg" style="width: 100%;">
+            <div class="text">Lollapalooza 2º lote</div>
+        </div>
+
+        <div class="slidesImg">
+            <div class="numeroTexto">3 / 3</div>
+            <img src="images/imgEvento2.jpg" style="width: 100%;">
+            <div class="text">Manchester United X AC Milan</div>
+        </div>
+
+        <a class="antes" onclick="mudarSlide(-1)">&#10094;</a>
+        <a class="depois" onclick="mudarSlide(1)">&#10095;</a>
+
+    </div>
+
+
+    <div style="text-align:center;">
+        <span class="dot" onclick="slide(1)"></span>
+        <span class="dot" onclick="slide(2)"></span>
+        <span class="dot" onclick="slide(3)"></span>
+    </div>
+
+    <script src="js/script.js"></script>
+
+
+    <h1 class="subtitulo">Ver tudo</h1>
+
+
+    <!--Cards Aqui.-->
+
+    <div class="cartoes">
+        <div class="cartoes2">
+            <img src="images/card.jpg" alt="image">
+            <h1>Saúde</h1>
+            <h2>Corra já e participe</h2>
+            <span>R$20,00</span><br>
+            <button>Saiba mais</button>
+        </div>
+
+
+        <div class="cartoes2">
+            <img src="images/card1.jpg" alt="image">
+            <h1>Show</h1>
+            <h2>Fim de semana com apresentação de..</h2>
+            <span>R$150,00</span><br>
+            <button>Saiba mais</button>
+        </div>
+
+
+        <div class="cartoes2">
+            <img src="images/card2.jpg" alt="image">
+            <h1>Culinária</h1>
+            <h2>Venha saborear os maiores e melhores..</h2>
+            <span>R$99,00</span><br>
+            <button>Saiba mais</button>
+        </div>
+
+
+        <div class="cartoes2">
+            <img src="images/card3.jpg" alt="image">
+            <h1>Festa</h1>
+            <h2>Localizado em Taguatinga-Df no es..</h2>
+            <span>De Graça</span><br>
+            <button>Saiba mais</button>
+        </div>
+
+
+        <div class="cartoes2">
+            <img src="images/card4.jpg" alt="image">
+            <h1>Beleza</h1>
+            <h2>Localizado em Taguatinga-Df no es..</h2>
+            <span>De Graça</span><br>
+            <button>Saiba mais</button>
+        </div>
+
+
+        <div class="cartoes2">
+            <img src="images/card5.jpg" alt="image">
+            <h1>Stand-Up</h1>
+            <h2>Localizado em Taguatinga-Df no es..</h2>
+            <span>R$70,00</span><br>
+            <button>Saiba mais</button>
+        </div>
+    </div>
+    
+</body>
+</html>
