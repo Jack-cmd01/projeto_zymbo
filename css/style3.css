@@ -37,11 +37,11 @@ h2 {
     border-radius: 12px;
     height: 200px;
     width: 91%;
-    display: flex;
+    display: block;
     align-items: flex-start;
-    justify-content: flex-start;
     text-align: left;
     font-size: 20px;
+    pointer-events: none;
 }
 
 
