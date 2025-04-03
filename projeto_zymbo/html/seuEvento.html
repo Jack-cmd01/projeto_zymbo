@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/projeto_zymbo/css/style3.css">
+    <link rel="icon" type="image/png" href="/projeto_zymbo/icons/icon_calendar.png">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <title>Crie seu evento</title>
+</head>
+<body>
+
+        <!--Navbar Aqui-->
+
+        <header>
+            <div id="logo">
+                <h1><a href="/projeto_zymbo/index.html">Zymbo</a></h1>
+            </div>
+            <nav>
+                <ul id="menu">
+                    <li><a href="/projeto_zymbo/html/seuEvento.html">Crie seu evento</a></li>
+                    <li><a href="/projeto_zymbo/html/acesseSuaConta.html">Acesse sua Conta</a></li>
+                    <li><a href="/projeto_zymbo/html/cadastro.html">Cadastre-se</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!--Formulário Aqui-->
+
+    <div class="borda">
+        <h1>Tipo:</h1><br>
+
+        <select class="tipo" name="tipo">
+            <option value="opcao1">Show</option>
+            <option value="opcao2">Esporte</option>
+            <option value="opcao3">Workshop</option>
+            <option value="opcao4">Festa</option>
+            <option value="opcao4">Gastronomia</option>
+            <option value="opcao4">Religião</option>
+            <option value="opcao4">Moda</option>
+            <option value="opcao4">Games</option>
+            <option value="opcao4">Passeios</option>
+            <option value="opcao4">Arte-Cultura</option>
+            <option value="opcao4">Saúde</option>
+        </select><br><br>
+
+        <input type="text" placeholder="Nome"><br><br>
+        <input type="text" placeholder="Local"><br><br>
+        <h1>de</h1><br>
+        <input type="date" placeholder="Data"><br><br>
+        <h1>até</h1><br>
+        <input type="date" placeholder="Data"><br><br>
+        <h1>Valor:</h1><br>
+        <input type="number" name="preco" placeholder="R$ 0,00"><br><br>
+        <h1>Descrição:</h1><br>
+        <textarea class="descricao" placeholder="''Proibido a entrada de menores..''"></textarea><br><br>
+        <button>Criar Evento</button>
+    </div>
+    
+</body>
+</html>

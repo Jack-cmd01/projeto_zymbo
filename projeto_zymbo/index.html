@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/png" href="icons/icon_calendar.png">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <title>Zymbo</title>
+</head>
+
+<body>
+
+    <!--Navbar Aqui-->
+
+    <header>
+        <div id="logo">
+            <h1><a href="/projeto_zymbo/index.html">Zymbo</a></h1>
+        </div>
+        <nav>
+            <ul id="menu">
+                <li><a href="/projeto_zymbo/html/seuEvento.html">Crie seu evento</a></li>
+                <li><a href="/projeto_zymbo/html/acesseSuaConta.html">Acesse sua Conta</a></li>
+                <li><a href="/projeto_zymbo/html/cadastro.html">Cadastre-se</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+
+    <!--Carrosel Aqui-->
+
+    <main>
+        <section class="Carrossel">
+            <div id="titulo">
+                 <h1>Se conecte a um mundo de possibilidades</h1>
+            </div>
+
+            <div class="slidesImg">
+                <div class="numeroTexto">1 / 3</div>
+                <img src="images/principal/imgEvento1.jpg" style="width: 100%;">
+                <div class="text">Lollapaooza 2º lote</div>
+            </div>
+
+            <div class="slidesImg">
+                <div class="numeroTexto">2 / 3</div>
+                <img src="images/principal/imgEvento.jpg" style="width: 100%;">
+                <div class="text">Bootcamp em Brasília</div>
+            </div>
+
+            <div class="slidesImg">
+                <div class="numeroTexto">3 / 3</div>
+                <img src="images/principal/imgEvento2.jpg" style="width: 100%;">
+                <div class="text">Manchester United X AC Milan</div>
+            </div>
+
+            <a class="antes" onclick="mudarSlide(-1)">&#10094;</a>
+            <a class="depois" onclick="mudarSlide(1)">&#10095;</a>
+
+
+            <div style="text-align:center;">
+                <span class="dot" onclick="slide(1)"></span>
+                <span class="dot" onclick="slide(2)"></span>
+                <span class="dot" onclick="slide(3)"></span>
+            </div>
+        </section>
+
+
+        <h2><button class="verTudo">+ Ver tudo</button></h2>
+
+
+    <!--Cards Aqui.-->
+
+    <section class="cartoes">
+        <div class="cartoes2">
+            <img src="images/cards/card.jpg" alt="image">
+            <h1>Saúde</h1>
+            <h2>Bosque da barra - RJ</h2>
+            <span>R$20,00</span><br>
+            <button>Saiba mais</button>
+        </div>
+
+
+        <div class="cartoes2">
+            <img src="images/cards/card1.jpg" alt="image">
+            <h1>Show</h1>
+            <h2>Salvador - BA</h2>
+            <span>R$150,00</span><br>
+            <button>Saiba mais</button>
+        </div>
+
+
+        <div class="cartoes2">
+            <img src="images/cards/card2.jpg" alt="image">
+            <h1>Gastronomia</h1>
+            <h2>Jundiaí - SP</h2>
+            <span>R$99,00</span><br>
+            <button>Saiba mais</button>
+        </div>
+
+
+        <div class="cartoes2">
+            <img src="images/cards/card3.jpg" alt="image">
+            <h1>Festa</h1>
+            <h2>Brasília - DF</h2>
+            <span>De Graça</span><br>
+            <button>Saiba mais</button>
+        </div>
+
+
+        <div class="cartoes2">
+            <img src="images/cards/card4.jpg" alt="image">
+            <h1>Moda</h1>
+            <h2>Brasília - DF</h2>
+            <span>De Graça</span><br>
+            <button>Saiba mais</button>
+        </div>
+
+
+        <div class="cartoes2">
+            <img src="images/cards/card5.jpg" alt="image">
+            <h1>Stand-Up</h1>
+            <h2>São Carlos - SP</h2>
+            <span>R$70,00</span><br>
+            <button>Saiba mais</button>
+        </div>
+
+
+        <div class="cartoes2 oculto">
+            <img src="images/cards/card6.jpg" alt="image">
+            <h1>Teatro</h1>
+            <h2>Rio Branco - AC</h2>
+            <span>R$70,00</span><br>
+            <button>Saiba mais</button> 
+        </div>
+
+
+    
+        <div class="cartoes2 oculto">
+            <img src="images/cards/card7.jpg" alt="image">
+            <h1>Show</h1>
+            <h2>Macapá - AP</h2>
+            <span>R$100,00</span><br>
+            <button>Saiba mais</button>
+        </div>
+
+
+        <div class="cartoes2 oculto">
+            <img src="images/cards/card8.jpg" alt="image">
+            <h1>Esporte</h1>
+            <h2>Belém - PA</h2>
+            <span>Grátis</span><br>
+            <button>Saiba mais</button>
+        </div>
+
+
+        <div class="cartoes2 oculto">
+            <img src="images/cards/card9.jpg" alt="image">
+            <h1>Esporte</h1>
+            <h2>Fortaleza - CE</h2>
+            <span>R$20,00</span><br>
+            <button>Saiba mais</button>
+        </div>
+
+
+        <div class="cartoes2 oculto">
+            <img src="images/cards/card10.jpg" alt="image">
+            <h1>Workshop</h1>
+            <h2>Recife - PE</h2>
+            <span>R$49,90</span><br>
+            <button>Saiba mais</button>
+        </div>
+
+
+        <div class="cartoes2 oculto">
+            <img src="images/cards/card11.jpg" alt="image">
+            <h1>Festa</h1>
+            <h2>Brasília - DF</h2>
+            <span>Grátis</span><br>
+            <button>Saiba mais</button>
+        </div>
+
+
+        <div class="cartoes2 oculto">
+            <img src="images/cards/card12.jpg" alt="image">
+            <h1>Gastronomia</h1>
+            <h2>Goiânia - GO</h2>
+            <span>R$99,90</span><br>
+            <button>Saiba mais</button>
+        </div>
+
+
+        <div class="cartoes2 oculto">
+            <img src="images/cards/card13.jpg" alt="image">
+            <h1>Campeonato</h1>
+            <h2>Salvador - BA</h2>
+            <span>R$69,90</span><br>
+            <button>Saiba mais</button>
+        </div>
+
+
+        <div class="cartoes2 oculto">
+            <img src="images/cards/card14.jpg" alt="image">
+            <h1>Passeio</h1>
+            <h2>João Pessoa - PB</h2>
+            <span>R$29,90</span><br>
+            <button>Saiba mais</button>
+        </div>
+
+
+        <div class="cartoes2 oculto">
+            <img src="images/cards/card15.jpg" alt="image">
+            <h1>Campeonato</h1>
+            <h2>Maceió - AL</h2>
+            <span>R$69,90</span><br>
+            <button>Saiba mais</button>
+        </div>
+
+
+        <div class="cartoes2 oculto">
+            <img src="images/cards/card16.jpg" alt="image">
+            <h1>Passeio</h1>
+            <h2>Brasília - DF</h2>
+            <span>R$20,00</span><br>
+            <button>Saiba mais</button>
+        </div>
+
+
+        <div class="cartoes2 oculto">
+            <img src="images/cards/card17.jpg" alt="image">
+            <h1>Esporte</h1>
+            <h2>Uberlândia - MG</h2>
+            <span>Grátis</span><br>
+            <button>Saiba mais</button>
+        </div>
+
+
+        <div class="cartoes2 oculto">
+            <img src="images/cards/card18.jpg" alt="image">
+            <h1>Show</h1>
+            <h2>Aracaju - SE</h2>
+            <span>R$80,00</span><br>
+            <button>Saiba mais</button>
+        </div>
+
+
+        <div class="cartoes2 oculto">
+            <img src="images/cards/card19.jpg" alt="image">
+            <h1>Show</h1>
+            <h2>Campo Grando - MS</h2>
+            <span>R$99,90</span><br>
+            <button>Saiba mais</button>
+        </div>
+
+
+        <div class="cartoes2 oculto">
+            <img src="images/cards/card20.jpg" alt="image">
+            <h1>Show</h1>
+            <h2>Palmas - TO</h2>
+            <span>R$55,00</span><br>
+            <button>Saiba mais</button>
+        </div>
+    </section>
+    </main>
+
+
+        <!--Footer Aqui.-->
+
+        <footer class="footer">
+            <div class="footer-container">
+                <div class="titulos">
+                    <h3>DATADOS</h3>
+                    <h3>CIDADES</h3>
+                    <h3>CATEGORIAS</h3>
+                    <h3>AJUDA</h3>
+                </div>
+        
+                <div class="categorias">
+                    <ul>
+                        <li><a href="#">Hoje</a></li>
+                        <li><a href="#">Amanhã</a></li>
+                        <li><a href="#">Esta semana</a></li>
+                        <li><a href="#">Próxima semana</a></li>
+                        <li><a href="#">Este mês</a></li>
+                    </ul>
+        
+                    <ul>
+                        <li><a href="#">Brasília</a></li>
+                        <li><a href="#">Belo Horizonte</a></li>
+                        <li><a href="#">Rio de Janeiro</a></li>
+                        <li><a href="#">Salvador</a></li>
+                        <li><a href="#">Porto Alegre</a></li>
+                        <li><a href="#">Goiânia</a></li>
+                        <li><a href="#">Curitiba</a></li>
+                        <li><a href="#">Fortaleza</a></li>
+                        <li><a href="#">Recife</a></li>
+                    </ul>
+        
+                    <ul>
+                        <li><a href="#">Shows</a></li>
+                        <li><a href="#">Esporte</a></li>
+                        <li><a href="#">Grátis</a></li>
+                        <li><a href="#">Workshops</a></li>
+                        <li><a href="#">Festas</a></li>
+                        <li><a href="#">Gastronomia</a></li>
+                        <li><a href="#">Religião</a></li>
+                        <li><a href="#">Moda</a></li>
+                        <li><a href="#">Games</a></li>
+                        <li><a href="#">Passeios</a></li>
+                        <li><a href="#">Arte-Cultura</a></li>
+                        <li><a href="#">Saúde</a></li>
+                    </ul>
+        
+                    <ul>
+                        <li><a href="#">Contato</a></li>
+                        <li><a href="#">Sobre Eventos</a></li>
+                    </ul>
+                </div>
+            </div>
+        
+            <p class="creditos">Todos os direitos reservados ©Zymbo - 2025 - UDF</p>
+        </footer>
+
+        <script src="js/script.js"></script>
+
+</body>
+</html>
